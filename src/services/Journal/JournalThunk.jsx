@@ -1,7 +1,7 @@
 import { createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
 
-const API_BASE = "ghttps://glowup-backend-production.up.railway.app/";
+const API_BASE = "https://glowup-backend-production.up.railway.app/api/journal";
 
 export const fetchAllEntries = createAsyncThunk(
   "journal/fetchAll",
