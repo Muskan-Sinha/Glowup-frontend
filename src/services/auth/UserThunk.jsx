@@ -1,6 +1,6 @@
 import { createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
-const BASE_URL = "http://localhost:8000/api/user";
+const BASE_URL = "https://glowup-backend-production.up.railway.app/";
 // Login
 export const login = createAsyncThunk(
     "user/login",

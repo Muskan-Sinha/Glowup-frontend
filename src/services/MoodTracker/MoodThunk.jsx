@@ -1,7 +1,7 @@
 import { createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
 
-const API_BASE = "http://localhost:8000/api/mood";
+const API_BASE = "https://glowup-backend-production.up.railway.app/";
 
 export const addMood = createAsyncThunk(
   "mood/addMood",

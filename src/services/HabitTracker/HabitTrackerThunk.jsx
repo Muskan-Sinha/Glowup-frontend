@@ -1,7 +1,7 @@
 import { createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
 
-const API_BASE = "http://localhost:8000/api/habits";
+const API_BASE = "https://glowup-backend-production.up.railway.app/";
 
 export const todayStr = () => new Date().toISOString().split("T")[0];
 
